@@ -1,0 +1,16 @@
+<div class="row mb-4">
+  <div class="col-12">
+    <div class="d-flex justify-content-between mb-2">
+      <span class="fw-bold">{{skill}}</span>
+      <span class="fw-light">{{skillPercent}}%</span>
+    </div>
+  </div>
+  <div class="col-12">
+    <mat-progress-bar
+      mode="determinate"
+      [value]="skillPercent"
+      [color]="'warn'"
+    ></mat-progress-bar>
+  </div>
+</div>
+ 

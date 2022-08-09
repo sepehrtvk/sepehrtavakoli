@@ -1,0 +1,40 @@
+<form [formGroup]="myForm" (ngSubmit)="onSubmit(myForm)">
+  <div class="col-12">
+    <mat-form-field appearance="legacy">
+      <mat-label>Enter Your Email</mat-label>
+      <input
+        matInput
+        placeholder="me@example.com"
+        formControlName="email"
+        required
+      />
+      <mat-error *ngIf="!myForm.controls['email'].valid"
+        >Please Enter a valid email.</mat-error
+      >
+    </mat-form-field>
+  </div>
+  <div class="col-12">
+    <mat-form-field appearance="legacy" class="my-4">
+      <mat-label>Enter Your Message</mat-label>
+      <textarea
+        matInput
+        formControlName="message"
+        placeholder="Your message"
+      ></textarea>
+      <mat-error *ngIf="!myForm.controls['message'].valid"
+        >Please Enter a message.
+      </mat-error>
+    </mat-form-field>
+  </div>
+  <div class="col-12">
+    <button
+      mat-raised-button
+      [disabled]="myForm.invalid"
+      type="submit"
+      color="warn"
+      class="me-md-5 mt-4"
+    >
+      Send Message
+    </button>
+  </div>
+</form>

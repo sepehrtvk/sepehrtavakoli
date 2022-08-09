@@ -1,0 +1,11 @@
+.heartIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+
+    position: absolute;
+    top: 54%;
+    left: 76%;
+}

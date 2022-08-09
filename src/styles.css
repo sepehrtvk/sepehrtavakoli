@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body {
+    font-family: 'Lato', sans-serif !important;
+  }
+
+.second-title {
+    position:relative;
+    display:inline-block;
+}
+
+.second-title:after {
+    content:'';
+    position:absolute;
+    left:0; right:0;
+    top:69%;
+    margin:10px auto;
+    width:30%;
+    height:5px;
+    border-radius: 1.2px;
+    background:rgb(111, 255, 33);
+}
+
+.myCardShadow {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

@@ -1,0 +1,23 @@
+.box {
+    position: relative;
+  }
+.box.arrow-left:after {
+    content: " ";
+    position: absolute;
+    left: -15px;
+    top: 15px;
+    border-top: 15px solid transparent;
+    border-right: 15px solid rgb(255, 255, 255);
+    border-left: none;
+    border-bottom: 15px solid transparent;
+  }
+
+.vLine::after {
+  content: " ";
+  position: absolute;
+  left: 44px;
+  top: 0px;
+  border-left: 3px solid rgb(236, 228, 228);
+  border-bottom: 205px solid rgb(236, 228, 228); 
+
+}
