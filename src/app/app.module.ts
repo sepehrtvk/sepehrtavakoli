@@ -31,6 +31,9 @@ import { ContantFormComponent } from './components/contact-section/contant-form/
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { HttpClientModule } from '@angular/common/http';
+import { ProjectDialogComponent } from './components/projects-section/project-dialog/project-dialog.component';
+
+import {MatDialogModule} from '@angular/material/dialog';
 
 @NgModule({
   declarations: [
@@ -53,7 +56,12 @@ import { HttpClientModule } from '@angular/common/http';
     IconSetComponent,
     ContactSectionComponent,
     ContantFormComponent,
+    ProjectDialogComponent,
   ],
+  entryComponents:[
+    ProjectDialogComponent
+  ],
+
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -67,6 +75,7 @@ import { HttpClientModule } from '@angular/common/http';
     MatInputModule,
     ReactiveFormsModule,
     HttpClientModule,
+    MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent],

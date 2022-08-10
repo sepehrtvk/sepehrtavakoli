@@ -1,0 +1,41 @@
+<div class="container p-4">
+  <div class="row text-center">
+    <div class="col-4"></div>
+    <div class="col-4">
+      <h1 class="second-title border-bottom px-4 pb-2">{{ data.title }}</h1>
+    </div>
+    <div class="col-4 text-end">
+      <button mat-button mat-dialog-close color="warn">
+        <mat-icon>close</mat-icon>
+      </button>
+    </div>
+  </div>
+  <div class="row mt-4 mb-5">
+    <div class="col-12 mb-2">
+      <span>Screenshots: </span>
+    </div>
+    <div class="col-md-4">
+      <img [src]="data.photo" alt="dialogPhoto" class="w-100" />
+    </div>
+    <div class="col-md-4">
+      <img [src]="data.photo" alt="dialogPhoto" class="w-100" />
+    </div>
+    <div class="col-md-4">
+      <img [src]="data.photo" alt="dialogPhoto" class="w-100" />
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6 py-2 my-1 border-end ">
+      <span class="fw-bold">Technologies : </span>
+      <span class="fw-light" >{{ data.technologies }}</span>
+    </div>
+    <div class="col-md-6 py-2 my-1">
+      <span class="fw-bold">Date : </span>
+      <span class="fw-light" >{{ data.date }}</span>
+    </div>
+    <div class="col-md-12 py-2 border-top">
+      <span class="fw-bold">Description : </span>
+      <span class="fw-light" >{{ data.description }}</span>
+    </div>
+  </div>
+</div>
