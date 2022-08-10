@@ -34,6 +34,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { ProjectDialogComponent } from './components/projects-section/project-dialog/project-dialog.component';
 
 import {MatDialogModule} from '@angular/material/dialog';
+import { EducationSectionComponent } from './components/education-section/education-section.component';
 
 @NgModule({
   declarations: [
@@ -57,6 +58,7 @@ import {MatDialogModule} from '@angular/material/dialog';
     ContactSectionComponent,
     ContantFormComponent,
     ProjectDialogComponent,
+    EducationSectionComponent,
   ],
   entryComponents:[
     ProjectDialogComponent
