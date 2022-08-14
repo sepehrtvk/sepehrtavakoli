@@ -1,6 +1,6 @@
 .parallax {
     /* The image used */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.45)), url("../../../assets/background-education.jpeg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.129), rgba(0, 0, 0, 0.45)), url("../../../assets/background-education.jpeg");
   
     /* Set a specific height */
     min-height: 550px;
@@ -10,4 +10,12 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+
 }
+
+.card { background-color: rgba(245, 245, 245, 0.821); }
+.card-header, .card-footer { opacity: 1}
