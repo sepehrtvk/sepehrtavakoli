@@ -16,6 +16,11 @@
     align-items: center;
 
 }
-
+@media screen and (max-width: 992px) {
+    .parallax {
+        flex-direction: column;
+    }
+  }
+  
 .card { background-color: rgba(245, 245, 245, 0.821); }
 .card-header, .card-footer { opacity: 1}

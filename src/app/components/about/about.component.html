@@ -1,4 +1,4 @@
-<div class="container my-4" id="about">
+<div class="container my-md-4" id="about">
   <div class="row text-center justify-content-around">
     <div class="col-12">
       <h2 class="second-title border-bottom my-5 px-4 pb-2">About</h2>
@@ -12,15 +12,15 @@
       </p>
       <div class="row mt-4">
         <app-about-item
-          ngClass="col-6"
+          ngClass="col-md-6 col-12"
           *ngFor="let item of aboutMe"
           [field]="item.field"
           [fieldValue]="item.fieldValue"
         ></app-about-item>
       </div>
       <div class="row mt-4">
-        <hr class="" >
-        <div class="col-12">
+        <hr />
+        <div class="col-12 mb-md-0 mb-5">
           <app-icon-set [align]="true"></app-icon-set>
         </div>
       </div>

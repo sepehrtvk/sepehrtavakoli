@@ -1,0 +1,13 @@
+.backPhoto {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.076), rgba(0, 0, 0, 0.576)),
+    url("../../../assets/developer.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 992px) {
+  .backPhoto {
+    height: 91vh;
+  }
+}
