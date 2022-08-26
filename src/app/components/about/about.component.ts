@@ -50,17 +50,17 @@ export class AboutComponent implements OnInit {
     );
 
     this.bigSkills.push({
-      title:'Development',
+      title:'Team Work',
       text:'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut sed expedita, ex, dolores natus eveniet id architecto veritatis',
-      iconName:'../../../assets/code.png'
+      iconName:'../../../assets/teamwork.png'
     },{
-      title:'Development',
+      title:'Self Confident',
       text:'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut sed expedita, ex, dolores natus eveniet id architecto veritatis',
-      iconName:'../../../assets/coding.png'
+      iconName:'../../../assets/self-confident.png'
     },{
-      title:'Development',
+      title:'Presenting Skill',
       text:'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut sed expedita, ex, dolores natus eveniet id architecto veritatis',
-      iconName:'../../../assets/coding.png'
+      iconName:'../../../assets/teaching.png'
     })
   }
 

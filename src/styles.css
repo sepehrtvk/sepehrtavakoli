@@ -1,27 +1,40 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
+html,
 body {
-    font-family: 'Lato', sans-serif !important;
-  }
+  height: 100%;
+}
+body {
+  font-family: "Lato", sans-serif !important;
+}
 
 .second-title {
-    position:relative;
-    display:inline-block;
+  position: relative;
+  display: inline-block;
 }
 
 .second-title:after {
-    content:'';
-    position:absolute;
-    left:0; right:0;
-    top:69%;
-    margin:10px auto;
-    width:30%;
-    height:5px;
-    border-radius: 1.2px;
-    background:rgb(111, 255, 33);
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 69%;
+  margin: 10px auto;
+  width: 30%;
+  height: 5px;
+  border-radius: 1.2px;
+  background: rgb(111, 255, 33);
 }
 
 .myCardShadow {
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.text-justify-center {
+  text-align: justify;
+  text-align-last: center;
+}
+
+.mat-tab-group.mat-primary .mat-ink-bar {
+  background-color: rgb(111, 255, 33) !important;
 }
