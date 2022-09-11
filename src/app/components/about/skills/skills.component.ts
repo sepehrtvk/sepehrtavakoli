@@ -17,20 +17,20 @@ export class SkillsComponent implements OnInit {
   constructor() {
     this.mySkills.push(
       {
-        skill:'Python',
+        skill:'Angular Js',
         skillPercent:80
       },{
-        skill:'Java',
+        skill:'React Js',
+        skillPercent:90
+      },{
+        skill:'Python',
+        skillPercent:60
+      },{
+        skill:'HTML-CSS',
+        skillPercent:90
+      },{
+        skill:'Typescript',
         skillPercent:50
-      },{
-        skill:'Python',
-        skillPercent:90
-      },{
-        skill:'Python',
-        skillPercent:90
-      },{
-        skill:'Python',
-        skillPercent:90
       }
     )
   }

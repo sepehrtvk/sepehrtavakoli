@@ -33,6 +33,12 @@ body {
 .text-justify-center {
   text-align: justify;
   text-align-last: center;
+  line-height: 1.6rem;
+}
+
+.text-justify-left {
+  text-align: justify;
+  line-height: 1.6rem;
 }
 
 .mat-tab-group.mat-primary .mat-ink-bar {
